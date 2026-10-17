@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+# Secrets & local env (never commit terminal creds)
+.env
+ssh2web.ini
+*.local.ini
+.ssh2web.ini
+*.pem
+*.key
+id_*
+# Engagement / solve artifacts
+report.md
+answers.md
+evidence/
+*.pdf
+# OS
+.DS_Store
